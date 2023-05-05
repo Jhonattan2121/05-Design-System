@@ -1,4 +1,4 @@
-// packages/tokens/src/colors.ts
+// src/colors.ts
 var colors = {
   white: "#FFF",
   black: "#000",
@@ -16,7 +16,7 @@ var colors = {
   ignite900: "#00291D"
 };
 
-// packages/tokens/src/space.ts
+// src/space.ts
 var space = {
   1: "0.25rem",
   2: "0.5rem",
@@ -35,7 +35,7 @@ var space = {
   80: "20rem"
 };
 
-// packages/tokens/src/radii.ts
+// src/radii.ts
 var radii = {
   px: "1px",
   xs: "4px",
@@ -45,13 +45,13 @@ var radii = {
   full: "99999px"
 };
 
-// packages/tokens/src/fonts.ts
+// src/fonts.ts
 var fonts = {
   default: "Roboto, sans-serif",
   code: "monospace"
 };
 
-// packages/tokens/src/font-sizes.ts
+// src/font-sizes.ts
 var fontSizes = {
   xxs: "0.625rem",
   xs: "0.75rem",
@@ -68,14 +68,14 @@ var fontSizes = {
   "9xl": "6rem"
 };
 
-// packages/tokens/src/font-weights.ts
+// src/font-weights.ts
 var fontWeights = {
   regular: "400",
   medium: "500",
   bold: "700"
 };
 
-// packages/tokens/src/line-heights.ts
+// src/line-heights.ts
 var lineHeights = {
   shorter: "125%",
   short: "140%",
