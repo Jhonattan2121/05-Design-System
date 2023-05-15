@@ -1,17 +1,23 @@
-/** @type { import('@storybook/react-webpack5').StorybookConfig } */
-const config = {
-  stories: ["../stories/**/*.mdx", "../stories/**/*.stories.@(js|jsx|ts|tsx)"],
-  addons: [
+module.exports = {
+  "stories": ["../src/stories/**/*.mdx", "../src/stories/**/*.stories.tsx"],
+  "addons": [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
+
   ],
-  framework: {
-    name: "@storybook/react-webpack5",
-    options: {},
+  "framework": "@storybook/react",
+  "core": {
+    "builder": "@storybook/builder-vite"
   },
-  docs: {
-    autodocs: "tag",
+  "features": {
+    "storyStoreV7": true
   },
-};
-export default config;
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/05-design-system/'
+    }
+
+    return config
+  }
+}
