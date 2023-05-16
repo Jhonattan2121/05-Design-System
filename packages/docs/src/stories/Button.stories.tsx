@@ -2,7 +2,7 @@ import  { Button, ButtonProps } from '@ignite-ui/react'
 import type { StoryObj, Meta } from '@storybook/react'
 
 export default {
-    title: 'Form/Button',
+    title: 'Button',
     component: Button,
     args: {
         children: 'Enviar',
