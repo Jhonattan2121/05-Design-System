@@ -7,6 +7,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jhonattan2121/05-Design-System.git"
@@ -17,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Jhonattan2121/05-Design-System/issues"
   },
-  "homepage": "https://github.com/Jhonattan2121/05-Design-System#readme"
+  "homepage": "https://github.com/Jhonattan2121/05-Design-System#readme",
+  "devDependencies": {
+    "turbo": "^1.9.6"
+  }
 }
