@@ -1,5 +1,6 @@
-import { ComponentProps } from "react";
+import { ComponentProps ,ElementType } from "react";
 import { styled } from "../styles";
+
 
 export const Box = styled("div", {
     padding: '$4',
