@@ -3,7 +3,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { ArrowRight } from 'phosphor-react'
 
 export default {
-    title: 'Typography/Button',
+    title: 'Form/Button',
     component: Button,
     args: {
         children: 'send',
