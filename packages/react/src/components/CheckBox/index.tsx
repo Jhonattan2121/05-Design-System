@@ -13,3 +13,5 @@ export function CheckBox(props: CheckboxProps) {
        </CheckBoxContainer>
     )
 }
+
+CheckBox.displayName = 'CheckBox'
