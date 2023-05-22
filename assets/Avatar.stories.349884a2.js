@@ -1,0 +1,2 @@
+import{A as t}from"./index.f07075d8.js";import"./index.8928ae62.js";import"./iframe.5d621f2c.js";import"./index.37d878cb.js";import"./jsx-runtime.d9be8967.js";const n={title:"Data Display/Avatar",component:t,args:{src:"https://github.com/jhonattan2121.png",alt:"Jhonattan Ferri"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},e=["Primary","WithFallback"];export{p as Primary,c as WithFallback,e as __namedExportsOrder,n as default};
+//# sourceMappingURL=Avatar.stories.349884a2.js.map
