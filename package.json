@@ -9,7 +9,11 @@
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=packages/docs && changeset publish"
+    
   },
   "repository": {
     "type": "git",
@@ -23,6 +27,7 @@
   },
   "homepage": "https://github.com/Jhonattan2121/05-Design-System#readme",
   "devDependencies": {
+    "@changesets/cli": "^2.25.0",
     "turbo": "^1.9.6"
   }
 }
