@@ -12,6 +12,9 @@
     "version-packages": "changeset version",
     "release": "turbo run build --filter=packages/docs && changeset publish"
   },
+  "packageManager": "npm@8.19.4",
+
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jhonattan2121/05-Design-System.git"
