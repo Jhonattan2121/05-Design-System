@@ -1,7 +1,6 @@
 import {colors} from '@ignite-jhon/tokens'
 import { getContrast } from 'polished'
 
-
 export function ColorsGrid() {
     return Object.entries(colors).map(([key, color]) => {
         return (
