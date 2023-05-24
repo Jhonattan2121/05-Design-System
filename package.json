@@ -1,8 +1,6 @@
 {
   "name": "05-design-system",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "private": true,
   "workspaces": [
     "packages/*"
@@ -13,19 +11,12 @@
     "changeset": "changeset",
     "version-packages": "changeset version",
     "release": "turbo run build --filter=packages/docs && changeset publish"
-    
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Jhonattan2121/05-Design-System.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jhonattan2121/05-Design-System/issues"
-  },
-  "homepage": "https://github.com/Jhonattan2121/05-Design-System#readme",
+ 
   "devDependencies": {
     "@changesets/cli": "^2.25.0",
     "turbo": "^1.9.6"
